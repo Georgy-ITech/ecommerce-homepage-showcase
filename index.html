@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Northstar Shop - eCommerce Homepage</title>
+    <meta
+      name="description"
+      content="Clean ecommerce homepage with product grid, hover interactions, and adaptive layout."
+    />
+    <meta name="theme-color" content="#2457ff" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Northstar Shop — eCommerce Homepage" />
+    <meta property="og:description" content="Clean ecommerce homepage with product grid, category cards, hover interactions, and adaptive layout. Portfolio project." />
+    <meta property="og:image" content="./og-image.svg" />
+    <meta property="og:locale" content="en_US" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="hero-banner">
+      <div class="hero-banner__overlay"></div>
+      <div class="page-container hero-banner__content">
+        <p class="hero-banner__eyebrow">New Season Collection</p>
+        <h1 class="hero-banner__title">Upgrade Your Everyday Style</h1>
+        <div class="hero-banner__actions">
+          <a class="button button--primary" href="#products">Shop Now</a>
+          <a class="button button--ghost" href="#category-title">Explore Categories</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section category" aria-labelledby="category-title">
+        <div class="page-container">
+          <h2 class="section__title" id="category-title">Shop by Category</h2>
+          <div class="category__grid">
+            <article class="category-card">
+              <a class="category-card__link" href="#products" aria-label="Open Women category"></a>
+              <img
+                src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80"
+                alt="Women's fashion category"
+                loading="lazy"
+              />
+              <p class="category-card__meta">Fresh everyday looks</p>
+              <h3 class="category-card__title">Women</h3>
+            </article>
+            <article class="category-card">
+              <a class="category-card__link" href="#products" aria-label="Open Men category"></a>
+              <img
+                src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=900&q=80"
+                alt="Men's fashion category"
+                loading="lazy"
+              />
+              <p class="category-card__meta">Sharp city essentials</p>
+              <h3 class="category-card__title">Men</h3>
+            </article>
+            <article class="category-card">
+              <a class="category-card__link" href="#products" aria-label="Open Shoes category"></a>
+              <img
+                src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=900&q=80"
+                alt="Footwear category"
+                loading="lazy"
+              />
+              <p class="category-card__meta">Comfort meets motion</p>
+              <h3 class="category-card__title">Shoes</h3>
+            </article>
+            <article class="category-card">
+              <a class="category-card__link" href="#products" aria-label="Open Accessories category"></a>
+              <img
+                src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=900&q=80"
+                alt="Accessories category"
+                loading="lazy"
+              />
+              <p class="category-card__meta">Details that stand out</p>
+              <h3 class="category-card__title">Accessories</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section products" id="products" aria-labelledby="products-title">
+        <div class="page-container">
+          <h2 class="section__title" id="products-title">Featured Products</h2>
+          <div class="products__grid">
+            <article class="product-card">
+              <span class="product-card__badge">New</span>
+              <a class="product-card__media-link" href="#products" aria-label="Open Classic White Tee product page">
+                <img
+                  class="product-card__image"
+                  src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80"
+                  alt="Classic white t-shirt"
+                  loading="lazy"
+                />
+              </a>
+              <div class="product-card__body">
+                <h3 class="product-card__title">
+                  <a href="#products" class="product-card__title-link">Classic White Tee</a>
+                </h3>
+                <p class="product-card__price">$29.00</p>
+                <button class="button button--cart" type="button">Add to Cart</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <span class="product-card__badge product-card__badge--hot">Hot</span>
+              <a class="product-card__media-link" href="#products" aria-label="Open Urban Red Sneakers product page">
+                <img
+                  class="product-card__image"
+                  src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80"
+                  alt="Urban red sneakers"
+                  loading="lazy"
+                />
+              </a>
+              <div class="product-card__body">
+                <h3 class="product-card__title">
+                  <a href="#products" class="product-card__title-link">Urban Red Sneakers</a>
+                </h3>
+                <p class="product-card__price">$84.00</p>
+                <button class="button button--cart" type="button">Add to Cart</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <a class="product-card__media-link" href="#products" aria-label="Open Relaxed Black Hoodie product page">
+                <img
+                  class="product-card__image"
+                  src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=80"
+                  alt="Relaxed black hoodie"
+                  loading="lazy"
+                />
+              </a>
+              <div class="product-card__body">
+                <h3 class="product-card__title">
+                  <a href="#products" class="product-card__title-link">Relaxed Black Hoodie</a>
+                </h3>
+                <p class="product-card__price">$69.00</p>
+                <button class="button button--cart" type="button">Add to Cart</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <span class="product-card__badge">Top Rated</span>
+              <a class="product-card__media-link" href="#products" aria-label="Open Leather Shoulder Bag product page">
+                <img
+                  class="product-card__image"
+                  src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=900&q=80"
+                  alt="Leather shoulder bag"
+                  loading="lazy"
+                />
+              </a>
+              <div class="product-card__body">
+                <h3 class="product-card__title">
+                  <a href="#products" class="product-card__title-link">Leather Shoulder Bag</a>
+                </h3>
+                <p class="product-card__price">$119.00</p>
+                <button class="button button--cart" type="button">Add to Cart</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <a class="product-card__media-link" href="#products" aria-label="Open Minimal Silver Watch product page">
+                <img
+                  class="product-card__image"
+                  src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=900&q=80"
+                  alt="Minimal silver watch"
+                  loading="lazy"
+                />
+              </a>
+              <div class="product-card__body">
+                <h3 class="product-card__title">
+                  <a href="#products" class="product-card__title-link">Minimal Silver Watch</a>
+                </h3>
+                <p class="product-card__price">$95.00</p>
+                <button class="button button--cart" type="button">Add to Cart</button>
+              </div>
+            </article>
+            <article class="product-card">
+              <a class="product-card__media-link" href="#products" aria-label="Open Beige Trench Coat product page">
+                <img
+                  class="product-card__image"
+                  src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=900&q=80"
+                  alt="Beige trench coat"
+                  loading="lazy"
+                />
+              </a>
+              <div class="product-card__body">
+                <h3 class="product-card__title">
+                  <a href="#products" class="product-card__title-link">Beige Trench Coat</a>
+                </h3>
+                <p class="product-card__price">$149.00</p>
+                <button class="button button--cart" type="button">Add to Cart</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section benefits benefits--highlight" aria-labelledby="benefits-title">
+        <div class="page-container">
+          <h2 class="section__title" id="benefits-title">Why Customers Choose Us</h2>
+          <p class="benefits__lead">
+            Reliable service, transparent process, and premium support at every step.
+          </p>
+          <div class="benefits__grid">
+            <article class="benefit-item">
+              <span class="benefit-item__icon" aria-hidden="true">🚚</span>
+              <h3 class="benefit-item__title">Fast Delivery</h3>
+              <p>Get your order in 2-4 business days.</p>
+            </article>
+            <article class="benefit-item">
+              <span class="benefit-item__icon" aria-hidden="true">🔄</span>
+              <h3 class="benefit-item__title">Easy Returns</h3>
+              <p>Simple 14-day return policy, no hassle.</p>
+            </article>
+            <article class="benefit-item">
+              <span class="benefit-item__icon" aria-hidden="true">💳</span>
+              <h3 class="benefit-item__title">Secure Payment</h3>
+              <p>Protected checkout with trusted gateways.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-container footer__layout">
+        <div>
+          <h3 class="footer__title">Northstar Shop</h3>
+          <p class="footer__text">Clean essentials for modern lifestyle.</p>
+        </div>
+        <div>
+          <h4 class="footer__subtitle">Shop</h4>
+          <ul class="footer__list">
+            <li><a href="#products">New Arrivals</a></li>
+            <li><a href="#products">Best Sellers</a></li>
+            <li><a href="#products">Sale</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__subtitle">Support</h4>
+          <ul class="footer__list">
+            <li><a href="#products" class="demo-link">Contact Us</a></li>
+            <li><a href="#products" class="demo-link">Shipping</a></li>
+            <li><a href="#products" class="demo-link">Returns</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

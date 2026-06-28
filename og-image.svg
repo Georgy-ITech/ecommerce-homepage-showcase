@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0a1233"/>
+  <rect width="1200" height="630" fill="url(#grad)" opacity="0.7"/>
+  <defs>
+    <radialGradient id="grad" cx="25%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#2457ff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0a1233" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <text x="80" y="240" font-family="'Arial Black', sans-serif" font-size="88" font-weight="900" fill="#ffffff" letter-spacing="-1">Northstar<tspan fill="#2457ff"> Shop</tspan></text>
+  <text x="80" y="320" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="rgba(255,255,255,0.65)">eCommerce Homepage — product grid, categories, hover effects</text>
+  <text x="80" y="420" font-family="Arial, sans-serif" font-size="24" fill="rgba(255,255,255,0.4)">Landing · Vanilla JS · Portfolio project</text>
+</svg>
