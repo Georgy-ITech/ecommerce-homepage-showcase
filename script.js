@@ -2,7 +2,7 @@ const cartButtons = document.querySelectorAll(".button--cart");
 const images = document.querySelectorAll("img");
 
 const fallbackImage =
-  "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=900&q=80";
+  "assets/fallback.jpg";
 
 images.forEach((img) => {
   img.addEventListener("error", () => {
