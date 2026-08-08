@@ -1,0 +1,12 @@
+# Полярис
+
+> Интернет-магазин базового гардероба: каталог, категории, доставка за 2–4 дня и возврат 14 дней.
+
+Сайт: https://georgy-itech.github.io/ecommerce-homepage-showcase/
+
+## Разделы
+- [Главная](https://georgy-itech.github.io/ecommerce-homepage-showcase/)
+
+## О проекте
+Концепт-проект. Дизайн и разработка — Georgy_Tech (https://kwork.ru/user/georgy_tech).
+Стек: HTML, CSS, JavaScript без внешних зависимостей; шрифты подключены локально.

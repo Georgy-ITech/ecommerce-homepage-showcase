@@ -1,32 +1,43 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Northstar Shop - eCommerce Homepage</title>
+    <title>Полярис — базовый гардероб и аксессуары</title>
     <meta
       name="description"
       content="Clean ecommerce homepage with product grid, hover interactions, and adaptive layout."
     />
     <meta name="theme-color" content="#2457ff" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Northstar Shop — eCommerce Homepage" />
-    <meta property="og:description" content="Clean ecommerce homepage with product grid, category cards, hover interactions, and adaptive layout. Portfolio project." />
+    <meta property="og:title" content="Полярис — базовый гардероб и аксессуары" />
+    <meta property="og:description" content="Главная интернет-магазина одежды: сетка товаров, карточки категорий, hover-взаимодействия и адаптивная вёрстка." />
     <meta property="og:image" content="./og-image.svg" />
-    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale" content="ru_RU" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="fonts.css" />
     <link rel="stylesheet" href="./styles.css" />
-  </head>
+  <link rel="canonical" href="https://georgy-itech.github.io/ecommerce-homepage-showcase/" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "OnlineStore",
+  "name": "Полярис",
+  "description": "Интернет-магазин базового гардероба: каталог, категории, доставка за 2–4 дня и возврат 14 дней.",
+  "url": "https://georgy-itech.github.io/ecommerce-homepage-showcase/",
+  "inLanguage": "ru-RU"
+}
+</script>
+</head>
   <body>
     <header class="hero-banner">
       <div class="hero-banner__overlay"></div>
       <div class="page-container hero-banner__content">
-        <p class="hero-banner__eyebrow">New Season Collection</p>
-        <h1 class="hero-banner__title">Upgrade Your Everyday Style</h1>
+        <p class="hero-banner__eyebrow">Коллекция нового сезона</p>
+        <h1 class="hero-banner__title">Обновите повседневный гардероб</h1>
         <div class="hero-banner__actions">
-          <a class="button button--primary" href="#products">Shop Now</a>
-          <a class="button button--ghost" href="#category-title">Explore Categories</a>
+          <a class="button button--primary" href="#products">В каталог</a>
+          <a class="button button--ghost" href="#category-title">Смотреть категории</a>
         </div>
       </div>
     </header>
@@ -34,47 +45,47 @@
     <main>
       <section class="section category" aria-labelledby="category-title">
         <div class="page-container">
-          <h2 class="section__title" id="category-title">Shop by Category</h2>
+          <h2 class="section__title" id="category-title">Категории</h2>
           <div class="category__grid">
             <article class="category-card">
               <a class="category-card__link" href="#products" aria-label="Open Women category"></a>
               <img
                 src="assets/women.jpg" width="1200" height="800"
-                alt="Women's fashion category"
+                alt="Женская одежда — категория каталога"
                 loading="lazy"
               />
-              <p class="category-card__meta">Fresh everyday looks</p>
-              <h3 class="category-card__title">Women</h3>
+              <p class="category-card__meta">Свежие повседневные образы</p>
+              <h3 class="category-card__title">Женщинам</h3>
             </article>
             <article class="category-card">
               <a class="category-card__link" href="#products" aria-label="Open Men category"></a>
               <img
                 src="assets/men.jpg" width="1200" height="800"
-                alt="Men's fashion category"
+                alt="Мужская одежда — категория каталога"
                 loading="lazy"
               />
-              <p class="category-card__meta">Sharp city essentials</p>
-              <h3 class="category-card__title">Men</h3>
+              <p class="category-card__meta">Городская база без лишнего</p>
+              <h3 class="category-card__title">Мужчинам</h3>
             </article>
             <article class="category-card">
               <a class="category-card__link" href="#products" aria-label="Open Shoes category"></a>
               <img
                 src="assets/footwear.jpg" width="1200" height="857"
-                alt="Footwear category"
+                alt="Обувь — категория каталога"
                 loading="lazy"
               />
-              <p class="category-card__meta">Comfort meets motion</p>
-              <h3 class="category-card__title">Shoes</h3>
+              <p class="category-card__meta">Удобство в движении</p>
+              <h3 class="category-card__title">Обувь</h3>
             </article>
             <article class="category-card">
               <a class="category-card__link" href="#products" aria-label="Open Accessories category"></a>
               <img
                 src="assets/accessories.jpg" width="1200" height="791"
-                alt="Accessories category"
+                alt="Аксессуары — категория каталога"
                 loading="lazy"
               />
-              <p class="category-card__meta">Details that stand out</p>
-              <h3 class="category-card__title">Accessories</h3>
+              <p class="category-card__meta">Детали, которые заметны</p>
+              <h3 class="category-card__title">Аксессуары</h3>
             </article>
           </div>
         </div>
@@ -82,111 +93,111 @@
 
       <section class="section products" id="products" aria-labelledby="products-title">
         <div class="page-container">
-          <h2 class="section__title" id="products-title">Featured Products</h2>
+          <h2 class="section__title" id="products-title">Популярные товары</h2>
           <div class="products__grid">
             <article class="product-card">
-              <span class="product-card__badge">New</span>
-              <a class="product-card__media-link" href="#products" aria-label="Open Classic White Tee product page">
+              <span class="product-card__badge">Новинка</span>
+              <a class="product-card__media-link" href="#products" aria-label="Open Базовая белая футболка product page">
                 <img
                   class="product-card__image"
                   src="assets/tshirt.jpg" width="1200" height="1200"
-                  alt="Classic white t-shirt"
+                  alt="Базовая белая футболка"
                   loading="lazy"
                 />
               </a>
               <div class="product-card__body">
                 <h3 class="product-card__title">
-                  <a href="#products" class="product-card__title-link">Classic White Tee</a>
+                  <a href="#products" class="product-card__title-link">Базовая белая футболка</a>
                 </h3>
-                <p class="product-card__price">$29.00</p>
-                <button class="button button--cart" type="button">Add to Cart</button>
+                <p class="product-card__price">2 490 ₽</p>
+                <button class="button button--cart" type="button">В корзину</button>
               </div>
             </article>
             <article class="product-card">
-              <span class="product-card__badge product-card__badge--hot">Hot</span>
-              <a class="product-card__media-link" href="#products" aria-label="Open Urban Red Sneakers product page">
+              <span class="product-card__badge product-card__badge--hot">Хит</span>
+              <a class="product-card__media-link" href="#products" aria-label="Open Красные городские кроссовки product page">
                 <img
                   class="product-card__image"
                   src="assets/sneakers.jpg" width="1200" height="800"
-                  alt="Urban red sneakers"
+                  alt="Красные городские кроссовки"
                   loading="lazy"
                 />
               </a>
               <div class="product-card__body">
                 <h3 class="product-card__title">
-                  <a href="#products" class="product-card__title-link">Urban Red Sneakers</a>
+                  <a href="#products" class="product-card__title-link">Красные городские кроссовки</a>
                 </h3>
-                <p class="product-card__price">$84.00</p>
-                <button class="button button--cart" type="button">Add to Cart</button>
+                <p class="product-card__price">6 900 ₽</p>
+                <button class="button button--cart" type="button">В корзину</button>
               </div>
             </article>
             <article class="product-card">
-              <a class="product-card__media-link" href="#products" aria-label="Open Relaxed Black Hoodie product page">
+              <a class="product-card__media-link" href="#products" aria-label="Open Чёрное худи свободного кроя product page">
                 <img
                   class="product-card__image"
                   src="assets/hoodie.jpg" width="1200" height="1800"
-                  alt="Relaxed black hoodie"
+                  alt="Чёрное худи свободного кроя"
                   loading="lazy"
                 />
               </a>
               <div class="product-card__body">
                 <h3 class="product-card__title">
-                  <a href="#products" class="product-card__title-link">Relaxed Black Hoodie</a>
+                  <a href="#products" class="product-card__title-link">Чёрное худи свободного кроя</a>
                 </h3>
-                <p class="product-card__price">$69.00</p>
-                <button class="button button--cart" type="button">Add to Cart</button>
+                <p class="product-card__price">5 490 ₽</p>
+                <button class="button button--cart" type="button">В корзину</button>
               </div>
             </article>
             <article class="product-card">
-              <span class="product-card__badge">Top Rated</span>
-              <a class="product-card__media-link" href="#products" aria-label="Open Leather Shoulder Bag product page">
+              <span class="product-card__badge">Выбор покупателей</span>
+              <a class="product-card__media-link" href="#products" aria-label="Open Кожаная сумка через плечо product page">
                 <img
                   class="product-card__image"
                   src="assets/bag.jpg" width="1200" height="802"
-                  alt="Leather shoulder bag"
+                  alt="Кожаная сумка через плечо"
                   loading="lazy"
                 />
               </a>
               <div class="product-card__body">
                 <h3 class="product-card__title">
-                  <a href="#products" class="product-card__title-link">Leather Shoulder Bag</a>
+                  <a href="#products" class="product-card__title-link">Кожаная сумка через плечо</a>
                 </h3>
-                <p class="product-card__price">$119.00</p>
-                <button class="button button--cart" type="button">Add to Cart</button>
+                <p class="product-card__price">9 900 ₽</p>
+                <button class="button button--cart" type="button">В корзину</button>
               </div>
             </article>
             <article class="product-card">
-              <a class="product-card__media-link" href="#products" aria-label="Open Minimal Silver Watch product page">
+              <a class="product-card__media-link" href="#products" aria-label="Open Часы в стальном корпусе product page">
                 <img
                   class="product-card__image"
                   src="assets/watch.jpg" width="1200" height="1798"
-                  alt="Minimal silver watch"
+                  alt="Часы в стальном корпусе"
                   loading="lazy"
                 />
               </a>
               <div class="product-card__body">
                 <h3 class="product-card__title">
-                  <a href="#products" class="product-card__title-link">Minimal Silver Watch</a>
+                  <a href="#products" class="product-card__title-link">Часы в стальном корпусе</a>
                 </h3>
-                <p class="product-card__price">$95.00</p>
-                <button class="button button--cart" type="button">Add to Cart</button>
+                <p class="product-card__price">7 900 ₽</p>
+                <button class="button button--cart" type="button">В корзину</button>
               </div>
             </article>
             <article class="product-card">
-              <a class="product-card__media-link" href="#products" aria-label="Open Beige Trench Coat product page">
+              <a class="product-card__media-link" href="#products" aria-label="Open Бежевый тренч product page">
                 <img
                   class="product-card__image"
                   src="assets/coat.jpg" width="1200" height="800"
-                  alt="Beige trench coat"
+                  alt="Бежевый тренч"
                   loading="lazy"
                 />
               </a>
               <div class="product-card__body">
                 <h3 class="product-card__title">
-                  <a href="#products" class="product-card__title-link">Beige Trench Coat</a>
+                  <a href="#products" class="product-card__title-link">Бежевый тренч</a>
                 </h3>
-                <p class="product-card__price">$149.00</p>
-                <button class="button button--cart" type="button">Add to Cart</button>
+                <p class="product-card__price">12 400 ₽</p>
+                <button class="button button--cart" type="button">В корзину</button>
               </div>
             </article>
           </div>
@@ -195,25 +206,25 @@
 
       <section class="section benefits benefits--highlight" aria-labelledby="benefits-title">
         <div class="page-container">
-          <h2 class="section__title" id="benefits-title">Why Customers Choose Us</h2>
+          <h2 class="section__title" id="benefits-title">Почему покупают у нас</h2>
           <p class="benefits__lead">
-            Reliable service, transparent process, and premium support at every step.
+            Понятные условия, честные сроки и поддержка на каждом шаге.
           </p>
           <div class="benefits__grid">
             <article class="benefit-item">
               <span class="benefit-item__icon" aria-hidden="true">🚚</span>
-              <h3 class="benefit-item__title">Fast Delivery</h3>
-              <p>Get your order in 2-4 business days.</p>
+              <h3 class="benefit-item__title">Быстрая доставка</h3>
+              <p>Заказ приезжает за 2–4 рабочих дня.</p>
             </article>
             <article class="benefit-item">
               <span class="benefit-item__icon" aria-hidden="true">🔄</span>
-              <h3 class="benefit-item__title">Easy Returns</h3>
-              <p>Simple 14-day return policy, no hassle.</p>
+              <h3 class="benefit-item__title">Простой возврат</h3>
+              <p>Возврат в течение 14 дней без объяснения причин.</p>
             </article>
             <article class="benefit-item">
               <span class="benefit-item__icon" aria-hidden="true">💳</span>
-              <h3 class="benefit-item__title">Secure Payment</h3>
-              <p>Protected checkout with trusted gateways.</p>
+              <h3 class="benefit-item__title">Безопасная оплата</h3>
+              <p>Оплата через защищённый платёжный шлюз.</p>
             </article>
           </div>
         </div>
@@ -223,29 +234,29 @@
     <footer class="site-footer">
       <div class="page-container footer__layout">
         <div>
-          <h3 class="footer__title">Northstar Shop</h3>
-          <p class="footer__text">Clean essentials for modern lifestyle.</p>
+          <h3 class="footer__title">Полярис</h3>
+          <p class="footer__text">Спокойная база на каждый день: без логотипов и лишних деталей.</p>
         </div>
         <div>
-          <h4 class="footer__subtitle">Shop</h4>
+          <h4 class="footer__subtitle">Магазин</h4>
           <ul class="footer__list">
-            <li><a href="#products">New Arrivals</a></li>
-            <li><a href="#products">Best Sellers</a></li>
-            <li><a href="#products">Sale</a></li>
+            <li><a href="#products">Новинки</a></li>
+            <li><a href="#products">Хиты продаж</a></li>
+            <li><a href="#products">Распродажа</a></li>
           </ul>
         </div>
         <div>
-          <h4 class="footer__subtitle">Support</h4>
+          <h4 class="footer__subtitle">Поддержка</h4>
           <ul class="footer__list">
-            <li><a href="#products" class="demo-link">Contact Us</a></li>
-            <li><a href="#products" class="demo-link">Shipping</a></li>
-            <li><a href="#products" class="demo-link">Returns</a></li>
+            <li><a href="#products" class="demo-link">Связаться с нами</a></li>
+            <li><a href="#products" class="demo-link">Доставка</a></li>
+            <li><a href="#products" class="demo-link">Возврат</a></li>
           </ul>
         </div>
       </div>
       <div class="page-container footer__bottom">
-        <span>© 2026 Northstar Shop · Concept project</span>
-        <span>Design and development — <a href="https://kwork.ru/user/georgy_tech" target="_blank" rel="noopener">Georgy_Tech</a></span>
+        <span>© 2026 Полярис · Концепт-проект</span>
+        <span>Дизайн и разработка — <a href="https://kwork.ru/user/georgy_tech" target="_blank" rel="noopener">Georgy_Tech</a></span>
       </div>
     </footer>
 

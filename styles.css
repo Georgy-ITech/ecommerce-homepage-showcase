@@ -499,3 +499,15 @@ p {
   font-size: 0.85rem;
 }
 .footer__bottom a { color: inherit; }
+
+/* A11Y-04: клавиатурный фокус должен быть видимым (WCAG 2.2) */
+:focus-visible {
+  outline: 2px solid var(--accent, #2f6fed);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* RESP-03: самостоятельные ссылки — цель не меньше 24px по высоте */
+.product-card__title-link,
+.footer__list a,
+.demo-link { display: inline-flex; align-items: center; min-height: 24px; }
