@@ -487,3 +487,15 @@ p {
     scroll-behavior: auto !important;
   }
 }
+
+.footer__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  font-size: 0.85rem;
+}
+.footer__bottom a { color: inherit; }
